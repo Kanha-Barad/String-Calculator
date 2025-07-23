@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../viewmodels/calculator_view_model.dart';
 import '../theme/theme_provider.dart';
+import '../view models/calculator_view_model.dart';
 
 class CalculatorScreen extends StatelessWidget {
   final TextEditingController _controller = TextEditingController();

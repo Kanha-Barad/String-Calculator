@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:string_calculator/viewmodels/calculator_view_model.dart';
+import 'package:string_calculator/view%20models/calculator_view_model.dart';
 
 void main() {
   test('calculate returns correct result', () {

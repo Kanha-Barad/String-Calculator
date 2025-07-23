@@ -7,7 +7,7 @@ class AppTheme {
     colorScheme: ColorScheme.light(
       primary: Colors.cyan,
       secondary: Colors.grey.shade800,
-      background: Colors.white,
+      surface: Colors.white,
     ),
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: const AppBarTheme(
@@ -37,10 +37,10 @@ class AppTheme {
   static final darkTheme = ThemeData(
     brightness: Brightness.dark,
     primaryColor: Colors.cyanAccent,
-    colorScheme: ColorScheme.dark(
+    colorScheme: const ColorScheme.dark(
       primary: Colors.cyanAccent,
       secondary: Colors.grey,
-      background: Colors.black,
+      surface: Colors.black,
     ),
     scaffoldBackgroundColor: Colors.black,
     appBarTheme: const AppBarTheme(

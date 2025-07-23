@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:string_calculator/view%20models/calculator_view_model.dart';
 import 'package:string_calculator/view/calculator_screen.dart';
-import 'package:string_calculator/viewmodels/calculator_view_model.dart';
 import 'package:string_calculator/theme/theme_provider.dart';
 import 'package:string_calculator/theme/app_theme.dart';
 
