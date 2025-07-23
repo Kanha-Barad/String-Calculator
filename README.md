@@ -1,10 +1,20 @@
-# String Calculator - TDD Kata 🧮
+# 🧮 String Calculator TDD Kata (in Dart)
 
-This project is an implementation of the classic **String Calculator** Kata using the **Test-Driven Development (TDD)** approach in **Dart/Flutter**.
+This project is a Dart implementation of the classic **String Calculator TDD Kata**, designed to practice **Test-Driven Development (TDD)** using Flutter/Dart.
 
-## 📋 Requirements
+---
 
-The calculator exposes a single method:
+## 🧪 Requirements Covered
 
-```dart
-int add(String numbers)
+✔️ Return 0 for empty string  
+✔️ Return the number itself for single input  
+✔️ Sum comma-separated values (e.g., `"1,2" → 3`)  
+✔️ Handle newlines between numbers (e.g., `"1\n2,3"` → 6)  
+✔️ Support custom delimiters (`"//;\n1;2"` → 3)  
+✔️ Throw exception on negative numbers with list of all negatives  
+✔️ Handle arbitrary amount of numbers
+
+---
+
+## 📁 Folder Structure
+
